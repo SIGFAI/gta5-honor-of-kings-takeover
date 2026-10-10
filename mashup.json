@@ -1,0 +1,190 @@
+{
+  "id": "sigf/gta5-honor-of-kings-takeover",
+  "version": "1.0.0",
+  "name": "Honor of Kings Takeover",
+  "tagline": "Bring Honor of Kings into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gta5",
+      "role": "host",
+      "engine": "GTA V Legacy + FiveM (local FXServer, CfxLua 5.4 resource, NUI HTML overlay, streamed .ydr props)",
+      "apps": {
+        "steam": "271590"
+      }
+    },
+    {
+      "game": "honorofkings",
+      "role": "guest",
+      "label": "Honor of Kings",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fivem"
+    }
+  ],
+  "install": [
+    {
+      "game": "gta5",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gta5-honor-of-kings-takeover.zip",
+          "dst": "{fivem}/resources/sigf_honor_of_kings_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "client.lua",
+              "sha256": "cd94a62a7a44ae171d2ee08cb8c38098347c311ee17b5d0a027a7e5eaa3858c1"
+            },
+            {
+              "path": "demo.lua",
+              "sha256": "a8aae3cd6a491636ebbf2135161a796e5ece77859feb095ed0ddbd0ec241aefe"
+            },
+            {
+              "path": "fxmanifest.lua",
+              "sha256": "0f2806c226785b503ee0f1fab124c55fe781ad1d68c8656a1c7cfdaa9d401479"
+            },
+            {
+              "path": "html/mod.css",
+              "sha256": "1b2fa2d85bd91d5b0c3b46a549aa658fb533b57639de694ab265d6702d4e5012"
+            },
+            {
+              "path": "img/coin.png",
+              "sha256": "0f9f3800a2e0d649615e165822d17a2df59f50677d960455c11112f3b02c5db5"
+            },
+            {
+              "path": "img/crown.png",
+              "sha256": "550c2958d631c2bdca28b564ec30893964a36a96e329b16e7202c704a8dce292"
+            },
+            {
+              "path": "lib/cl_bricks.lua",
+              "sha256": "c965c2697e6ef10afc39d5229dd2cf6faedca6ed4d7eb8c3bd7cf911d642f4c6"
+            },
+            {
+              "path": "lib/cl_demo.lua",
+              "sha256": "00e02ecdcdf629411cfdbbe780e993eec6cd72b663b9de7052c34c175fc94d4d"
+            },
+            {
+              "path": "lib/cl_ready.lua",
+              "sha256": "ef9bd4698240643ffefc8374dc394ca25c988d2851c6ea613f43be31c850b3cb"
+            },
+            {
+              "path": "lib/nui/hud.css",
+              "sha256": "8dddfe6c6a3df9be201f6ff899bef6543900ce732f08fd84851fc7a99600199a"
+            },
+            {
+              "path": "lib/nui/hud.html",
+              "sha256": "75c24c9a4840f39749f3d0fac053157c267f410b99204c917776fde969eff094"
+            },
+            {
+              "path": "lib/sh_bricks.lua",
+              "sha256": "c84f8853c8a45a51f589513c31f1d567d40b931a54e744419077a5ea72a43023"
+            },
+            {
+              "path": "lib/sv_bricks.lua",
+              "sha256": "5fc3c94d19b751f0dc08dfb6c8de49bfd2005ebe91f557fcd1dce0f5fb3eab34"
+            },
+            {
+              "path": "sfx/levelup.ogg",
+              "sha256": "2b9e00589b84251a869e354566d7aaedfcf21bda438f5ae3da803c3b7077f5a0"
+            },
+            {
+              "path": "sfx/ult.ogg",
+              "sha256": "219ed6363da10516816fba61b23a3a044c22b731017a6e985c261cf39adab16e"
+            },
+            {
+              "path": "sfx/v_double.ogg",
+              "sha256": "4e6f4598ef19bab8d303de9fb00aa90e3331cb45c004c9876c34516081f237be"
+            },
+            {
+              "path": "sfx/v_firstblood.ogg",
+              "sha256": "6c4c0e38e4da3828beb2fac8cfe5d198b2e7f688e54b66fe0d1bee1e358d460e"
+            },
+            {
+              "path": "sfx/v_spree.ogg",
+              "sha256": "cf3d973f46c0043bfda4aeefa954db0b91936aff2b2098245bce3a8879bf2944"
+            },
+            {
+              "path": "sfx/v_triple.ogg",
+              "sha256": "88eb7eb4b4130adceb17c527fccbc95cea39717ea9341ac3c56d58db29706c98"
+            },
+            {
+              "path": "sfx/v_tyrant.ogg",
+              "sha256": "9b149a86237b92f70b1c0d079e0fc41f5b54b4f4dc176d1cc73ea3b5da2c9d9d"
+            },
+            {
+              "path": "sfx/v_victory.ogg",
+              "sha256": "c268e318e89f645bb93ce9e2cf565c8287e44aa16b53c0e77fb5db6a4f73305d"
+            },
+            {
+              "path": "sfx/zap.ogg",
+              "sha256": "6f9001855ad068cb54acf760a183a93bfe2b177a7c68ac6e17cc0dc12aaf625a"
+            },
+            {
+              "path": "stream/sigf_tower_blue.ydr",
+              "sha256": "7f303464841b757b02f09b80799de053998f5c02d139248a67850922127e4dfa"
+            },
+            {
+              "path": "stream/sigf_tower_blue.ytyp",
+              "sha256": "cb5208b96a685994b87ee48c33ac555247739268a54cd7d1ac71d50dd5e34b30"
+            },
+            {
+              "path": "stream/sigf_tower_red.ydr",
+              "sha256": "54010c0a41dbc695d66cae5d56194ded4e186ca8e365c14b8f302a6c5906d986"
+            },
+            {
+              "path": "stream/sigf_tower_red.ytyp",
+              "sha256": "5e54f108f458848bda1cb4f7b36feab298e32ce7d77774a30f9fab23abfb139a"
+            },
+            {
+              "path": "stream/sigf_tyrant.ydr",
+              "sha256": "162df28760c55e64e4870053a05ba83d604c1fe8b6d077fc182b2f3b5e03921e"
+            },
+            {
+              "path": "stream/sigf_tyrant.ytyp",
+              "sha256": "9ffe1d2e477b685eea7f5d4b80402bdeee58dca7284e9e440ab8c97bddd9449e"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gta5-honor-of-kings-takeover/releases/download/v1.0.0/gta5-honor-of-kings-takeover.zip",
+          "sha256": "e6b818c548fa3115c3e3a2ae67a01c3e619aa771ea5d905a1bda6fb0afe1ed86",
+          "size": 3669890
+        }
+      ],
+      "runtime": "fivem"
+    }
+  ],
+  "launch": [
+    {
+      "game": "gta5",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gta5-honor-of-kings-takeover.zip",
+      "url": "https://github.com/SIGFAI/gta5-honor-of-kings-takeover/releases/download/v1.0.0/gta5-honor-of-kings-takeover.zip",
+      "sha256": "e6b818c548fa3115c3e3a2ae67a01c3e619aa771ea5d905a1bda6fb0afe1ed86",
+      "size": 3669890
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gta5-honor-of-kings-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-10-07372dd8.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gta5",
+    "status": "draft"
+  },
+  "built_at": "2026-10-10T06:17:06.510Z"
+}
