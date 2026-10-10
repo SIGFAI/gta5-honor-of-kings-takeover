@@ -1,0 +1,17 @@
+#hk-top { position: fixed; top: 14px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 0; font-family: 'Luckiest Guy', 'Bebas Neue', sans-serif; filter: drop-shadow(0 4px 6px #000a); }
+.hk-team { display: flex; align-items: center; gap: 14px; padding: 6px 26px; font-size: 44px; color: #fff; min-width: 240px; }
+.hk-a { background: linear-gradient(90deg, #0b2f66, #2d8cff); clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%); justify-content: flex-start; border-bottom: 4px solid #ffd34d; }
+.hk-b { background: linear-gradient(270deg, #5c0b12, #ff3b3b); clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%); justify-content: flex-end; border-bottom: 4px solid #ffd34d; }
+.hk-score { font-size: 60px; color: #ffe27a; text-shadow: 0 2px 0 #000; }
+.hk-name { letter-spacing: 3px; text-shadow: 0 2px 0 #000; }
+#hk-time { background: #151521; color: #ffd34d; font-size: 36px; padding: 8px 18px; border: 3px solid #ffd34d; border-radius: 8px; margin: 0 -8px; z-index: 2; }
+#hk-boss { display: none; position: fixed; top: 92px; left: 50%; transform: translateX(-50%); width: 520px; text-align: center; font-family: 'Luckiest Guy', sans-serif; color: #ffb347; font-size: 24px; text-shadow: 0 2px 0 #000; }
+#hk-boss-bar { height: 18px; border: 3px solid #ffd34d; background: #1a1008; border-radius: 4px; overflow: hidden; }
+#hk-boss-fill { height: 100%; width: 100%; background: linear-gradient(180deg, #ffd34d, #ff6a00); transition: width .4s; }
+#hk-me { position: fixed; left: 22px; bottom: 26px; display: flex; align-items: center; gap: 12px; background: #151521dd; border: 3px solid #ffd34d; border-radius: 14px; padding: 8px 18px 8px 10px; font-family: 'Luckiest Guy', sans-serif; color: #fff; }
+#hk-me > img { width: 62px; height: 62px; object-fit: contain; }
+#hk-lv { font-size: 28px; color: #7fc4ff; }
+#hk-gold { font-size: 28px; color: #ffd34d; display: flex; align-items: center; gap: 6px; }
+#hk-gold img { width: 28px; height: 28px; }
+#hk-feed { position: fixed; right: 18px; top: 110px; width: 440px; display: flex; flex-direction: column; gap: 6px; font-family: 'Inter', sans-serif; font-weight: 800; font-size: 20px; color: #fff; }
+.hk-row { background: #10101acc; border-left: 6px solid #ffd34d; padding: 6px 10px; border-radius: 4px; text-shadow: 0 1px 0 #000; }
